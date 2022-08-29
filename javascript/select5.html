@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+
+	function abc() 
+	{
+		var a=document.getElementById('x').value;
+
+		if (a=="Bsc") 
+		{
+			document.getElementById('res').innerHTML="BSC"
+			document.getElementById('res1').innerHTML="25000"
+			document.getElementById('res2').innerHTML="3 years"
+		}
+		else if (a=="Msc") 
+		{
+			document.getElementById('res').innerHTML="MSC"
+			document.getElementById('res1').innerHTML="30000"
+			document.getElementById('res2').innerHTML="3 years"
+
+		}
+
+		else if (a=="Egg") 
+		{
+			document.getElementById('res').innerHTML="Egg"
+			document.getElementById('res1').innerHTML="700000"
+			document.getElementById('res2').innerHTML="4 years"
+		}
+
+
+
+	}
+	
+
+
+</script>
+
+</head>
+<body>
+
+
+	<select id="x">
+		<option value="Bsc">Bsc</option>
+		<option value="Msc">Msc</option>
+		<option value="Egg">Egg</option>
+	</select>
+
+	<input type="button" name="" value="Clickme" onclick="abc()">
+
+
+	<table border="1">
+		<tr>
+			<td><h1>S.no</h1></td>
+			<td><h1>Course Name</h1></td>
+			<td><h1>Course fees</h1></td>
+			<td><h1>Year</h1></td>
+		</tr>
+		<tr>
+			<td><h1>1</h1></td>
+			<td><h1 id="res"></h1></td>
+			<td><h1 id="res1"></h1></td>
+			<td><h1 id="res2"></h1></td>
+		</tr>
+	</table>
+
+</body>
+</html>

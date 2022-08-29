@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+	
+	function abc() 
+	{
+		var a=document.getElementById('x').value;
+		document.getElementById('res').innerHTML="Thank you for coming "+a;
+	}
+
+</script>
+
+</head>
+<body>
+
+	<h1 id="res"></h1>
+
+	<select id="x">
+		<option value="Trichy">Trichy</option>
+		<option value="NKL">Namakkal</option>
+		<option value="Salem">Salem</option>
+		<option value="Karur">karur</option>
+	</select>
+	<input type="button" name="" value="Click me" onclick="abc()">
+
+</body>
+</html>

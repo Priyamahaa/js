@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+	function abc() 
+	{
+		var a=document.getElementById('x').value;
+		
+		var b=document.getElementById('y').value;
+
+		if (a!=''&& b!='') 
+		{
+			if(a.length>5)
+
+			{
+				if (b.length>5) 
+				{
+					alert("done");
+				}
+
+				else
+				{
+					alert("password must be 5 chars");
+				}
+			    }
+
+				else
+				{
+					alert("name must be 5 chars");
+				}
+			}
+
+				else
+				{
+					alert("plese enter valid details");
+				}
+			}
+		
+
+
+
+	</script>
+
+
+</head>
+<body>
+
+
+	Name:<input type="text" name="" id="x"><br>
+
+	Password:<input type="password" name="" id="y"><br>
+
+	<input type="button" name="" value="submit" onclick="abc()">
+
+</body>
+</html>

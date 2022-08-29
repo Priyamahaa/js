@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+	
+	function abc() 
+	{
+		var a=document.getElementById('first').value;
+		var b=document.getElementById('sec').value;
+		var c=a*b;
+	    document.getElementById('x').innerHTML="Multiplication of "+c;
+	}
+
+</script>
+
+</head>
+<body>
+	<h1 id="x">Infoem</h1>
+
+	Enter a:<input type="text" name="" id="first"><br>
+	Enter b:<input type="text" name="" id="sec"><br>
+
+	<input type="button" name="" value="click me" onclick="abc()">
+
+</body>
+</html>

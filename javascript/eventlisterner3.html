@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+
+	<h1 id="x">Infoem</h1>
+	
+	<p id="y">Priya</p>
+
+	<script type="text/javascript">
+
+		document.getElementById('x').addEventListener("mouseover",abc);
+		document.getElementById('x').addEventListener("mouseout",xyz);
+		document.getElementById('x').addEventListener("click",pqr);
+
+		function abc() 
+		{
+			x.style.background="pink";
+			x.style.color="green";
+			x.style.width="100px";
+			x.style.height="100px";
+		}
+
+		function xyz() 
+		{
+			x.style.background="";
+			x.style.color="";
+			x.style.width="";
+			x.style.height="";
+		}
+
+		function pqr() 
+		{
+			document.getElementById('y').innerHTML="Infoem";
+		}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+<script type="text/javascript">
+	
+	function abc() 
+	{
+		var a=document.getElementById('x').value;
+		var b=document.getElementById('y').value;
+		var c=document.getElementById('z').value;
+		
+		document.getElementById('res').style.color=a;
+		document.getElementById('res').style.fontSize=b;
+		document.getElementById('res').style.background=c;
+	}
+
+</script>
+
+</head>
+<body>
+
+	<p id="res">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+	
+	<select id="x">
+		<option value="pink">pink</option>
+		<option value="grey">grey</option>
+		<option value="lime">lime</option>
+	</select>
+
+
+	<select id="y">
+		<option value="14px">14px</option>
+		<option value="16px">16px</option>
+		<option value="18px">18px</option>
+	</select>
+
+	<select id="z">
+		<option value="pink">pink</option>
+		<option value="blue">blue</option>
+		<option value="lime">lime</option>
+	</select>
+
+	<input type="button" name="" value="Click Me" onclick="abc()">
+
+</body>
+</html>
